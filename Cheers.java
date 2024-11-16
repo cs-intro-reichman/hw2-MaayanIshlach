@@ -9,7 +9,7 @@ public class Cheers {
             for (int i = 0; i <str.length(); i++)
             {
                 if ((letters.indexOf(str.charAt(i))==-1)&&(letters_small.indexOf(str.charAt(i))==-1)) {
-                        line="Give me a "+ str.charAt(i)+": "+str.charAt(i)+"!";
+                        line="Give me a  "+ str.charAt(i)+": "+str.charAt(i)+"!";
                         System.out.println(line);
 
                 }
@@ -22,7 +22,7 @@ public class Cheers {
         System.out.println("What does that spell?");
         for (int i = 0; i <n; i++)
             {
-                System.out.println(str+ "!!!");
+                System.out.println(str.toUpperCase()+ "!!!");
             }
 }
 }
