@@ -9,12 +9,12 @@ public class Cheers {
             for (int i = 0; i <str.length(); i++)
             {
                 if ((letters.indexOf(str.charAt(i))==-1)&&(letters_small.indexOf(str.charAt(i))==-1)) {
-                        line="Give me a  "+ str.charAt(i)+": "+str.charAt(i)+"!";
+                        line="Give me a  "+ str.toUpperCase().charAt(i)+": "+str.toUpperCase().charAt(i)+"!";
                         System.out.println(line);
 
                 }
                 else{
-                        line= "Give me an " + str.charAt(i)+": "+str.charAt(i)+"!";
+                        line= "Give me an " + str.toUpperCase().charAt(i)+": "+str.toUpperCase().charAt(i)+"!";
                         System.out.println(line);
                 }
 
