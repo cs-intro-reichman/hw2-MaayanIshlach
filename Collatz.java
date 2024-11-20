@@ -49,7 +49,7 @@ public class Collatz {
 				}
 
 			}
-			System.out.println("("+count+")");
+			System.out.println(" ("+count+")");
 			System.out.println();
 				
 		}
