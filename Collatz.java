@@ -42,9 +42,10 @@ public class Collatz {
 					}
 					else
 					{
-						System.out.print(num+" ");
+						
 						count++;
 						num=num*3+1;
+						System.out.print(num+" ");
 					}
 				}
 
@@ -58,3 +59,15 @@ public class Collatz {
 }	
 		
 }
+
+
+
+
+/*
+ 
+1 4 2 1 (4)%0A2 1 (2)%0A3 10 5 16 8 4 2 1 (8)%0A4 2 1 (3)%0A5 16 8 4 2 1 (6)%0A6 3 10 5 16 8 4 2 1 (9)%0A7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (17)%0AEvery one of the first 7 hailstone sequences reached 1.
+1 4 2 1 (4)%0A2 1 (2)%0A3 10 5 16 8 4 2 1 (8)%0A4 2 1 (3)%0A5 16 8 4 2 1 (6)%0A6 3 3 5 5 8 4 2 1 (9)%0A7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (17)%0AEvery one of the first 7 hailstone sequences reached 1.
+
+1 4 2 1 (4)%0A2 1 (2)%0A3 10 5 16 8 4 2 1 (8)%0A4 2 1 (3)%0A5 16 8 4 2 1 (6)%0A6 3 10 5 16 8 4 2 1 (9)%0A7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (17)%0A8 4 2 1 (4)%0A9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (20)%0A10 5 16 8 4 2 1 (7)%0AEvery one of the first 10 hailstone sequences reached 1.
+1 4 2 1 (4)%0A2 1 (2)%0A3 10 5 16 8 4 2 1 (8)%0A4 2 1 (3)%0A5 16 8 4 2 1 (6)%0A6 3 3 5 5 8 4 2 1 (9)%0A7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (17)%0A8 4 2 1 (4)%0A9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (20)%0A10 5 5 8 4 2 1 (7)%0AEvery one of the first 10 hailstone sequences reached 1.
+ */
